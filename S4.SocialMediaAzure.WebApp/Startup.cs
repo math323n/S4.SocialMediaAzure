@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using S4.SocialMediaAzure.DataAccess.Base;
+using S4.SocialMediaAzure.Entities.Models;
 
 namespace S4.SocialMediaAzure.WebApp
 {
@@ -25,6 +27,8 @@ namespace S4.SocialMediaAzure.WebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddScoped<RepositoryBase<AspNetPost>>();
+            services.AddScoped<RepositoryBase<AspNetComment>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

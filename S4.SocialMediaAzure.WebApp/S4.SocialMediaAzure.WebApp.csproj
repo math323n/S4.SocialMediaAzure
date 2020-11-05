@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\S4.SocialMediaAzure.DataAccess\S4.SocialMediaAzure.DataAccess.csproj" />
     <ProjectReference Include="..\S4.SocialMediaAzure.Entities\S4.SocialMediaAzure.Entities.csproj" />
   </ItemGroup>
 
