@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4.SocialMediaAzure.WebApp", "S4.SocialMediaAzure.WebApp\S4.SocialMediaAzure.WebApp.csproj", "{62EF5888-509D-4E86-B5F5-5F6D15DBD04C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4.SocialMediaAzure.Entities", "S4.SocialMediaAzure.Entities\S4.SocialMediaAzure.Entities.csproj", "{44CDCC49-7A24-4171-AB4C-6AA24167FB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S4.SocialMediaAzure.DataAccess", "S4.SocialMediaAzure.DataAccess\S4.SocialMediaAzure.DataAccess.csproj", "{BFC00C37-DDDA-4118-B3D0-1673ADC4F7C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62EF5888-509D-4E86-B5F5-5F6D15DBD04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EF5888-509D-4E86-B5F5-5F6D15DBD04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EF5888-509D-4E86-B5F5-5F6D15DBD04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EF5888-509D-4E86-B5F5-5F6D15DBD04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44CDCC49-7A24-4171-AB4C-6AA24167FB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44CDCC49-7A24-4171-AB4C-6AA24167FB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44CDCC49-7A24-4171-AB4C-6AA24167FB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44CDCC49-7A24-4171-AB4C-6AA24167FB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC00C37-DDDA-4118-B3D0-1673ADC4F7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC00C37-DDDA-4118-B3D0-1673ADC4F7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC00C37-DDDA-4118-B3D0-1673ADC4F7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC00C37-DDDA-4118-B3D0-1673ADC4F7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC5CA5EE-F9C2-4760-A64B-4DF51ED5126D}
+	EndGlobalSection
+EndGlobal
